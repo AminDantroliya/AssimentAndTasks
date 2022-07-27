@@ -7,15 +7,19 @@ main()
     
     print ("\n Enter ON OR OFF:->");
     name = stdin.readLineSync();   
-if(name =="on")
+if(name =="on"||name=="ON")
 {
     status=true;
     print("\n\t :-->*ON*<--:");
 }
-else{
+else if(name =="off"||name=="OFF")
+{
     status=false;
     print("\n\t :-->*OFF*<--:");
 
-    }
+}
+else{
+    print("\n\t INVILIDE SWITCH");
+}
     
 }
