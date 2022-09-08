@@ -22,7 +22,7 @@ class Myapp extends StatelessWidget {
         backgroundColor: Color.fromARGB(255, 255, 235, 52),
         body: Container(
            color: Colors.yellow,
-           child: Row(
+           child: Column(
             children: [
               
               Container(
@@ -33,8 +33,8 @@ class Myapp extends StatelessWidget {
                 color: Color.fromRGBO(207, 106, 5, 1),
                 height: 60,
                 
-               child: Row(
-                mainAxisAlignment: MainAxisAlignment.center,
+               child:Column(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                       Icon(
                         Icons.arrow_back,
@@ -66,7 +66,7 @@ class Myapp extends StatelessWidget {
                 height: 60,
                 
                child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
                       Icon(
                         Icons.arrow_back,
